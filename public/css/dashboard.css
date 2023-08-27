@@ -1,0 +1,49 @@
+.vertical-menu {
+    width: 200px;
+  }
+
+  .vertical-menu a {
+    background-image: linear-gradient(to right, rgba(237, 246, 249, 0.52), rgba(131, 197, 190, 0.73)),
+    url('/img/formback.jpeg');;
+    color:#006D77;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #006D77;
+    color:black;
+    font-size: 30px;
+  }
+  .font-size{
+    font-family : 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+}
+  .back-color{
+    background-image: linear-gradient(to right, rgba(237, 246, 249, 0.52), rgba(131, 197, 190, 0.73)),
+    url('/img/background.png');;
+}
+  .btn-back{
+    background-color:#E29578;
+    color:#006D77
+
+}
+.nav-color{
+  background-color: #006D77;
+
+}
+.card_style{
+  color:#006D77;
+  width: 18rem;
+  background-image: linear-gradient(to right, rgba(237, 246, 249, 0.52), rgba(131, 197, 190, 0.73)),
+  url('/img/card_back.jpeg');;
+           
+}
+
+

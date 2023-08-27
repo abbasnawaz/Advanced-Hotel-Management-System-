@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 50px;
+    
+   
+    
+}
+.back-color{
+    background-image: linear-gradient(to right, rgba(237, 246, 249, 0.52), rgba(131, 197, 190, 0.73)),
+    url('/img/background.png');;
+}
+
+.textback {
+       
+    margin-top: 250px;
+    
+    
+    border:3px solid #E29578;
+    
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+.position {
+    margin-right: 550px;
+    margin-top: 10px;
+    margin-left: 550px;
+}
+.btn1:hover{
+    background-color: #83C5BE;
+    border:3px solid #E29578 ;
+    color: black;
+ 
+  }
+
+.login{
+    background-color: #E29578   ;
+    height: 50px;
+    width : 180px
+}
+
+.footer_color{
+    background-color: #83C5BE ;
+} 
+
+.tablecolor{
+    
+    background-color: whitesmoke;
+    border-radius: 10px;
+}

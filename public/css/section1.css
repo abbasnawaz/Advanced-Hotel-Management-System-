@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 20px;
+    
+}
+
+.navbar-color{
+    background-color: #006D77      ;
+}
+
+
+
+
+.section {
+    height: 120vh;
+    background-image: linear-gradient(to right, rgba(237, 246, 249, 0.52), rgba(131, 197, 190, 0.73)),
+    url('/img/background.png');;
+    box-sizing: border-box;
+
+    background-size: cover;
+    color: white;
+    
+  }
+
+
+.footer_color{
+    background-color: #83C5BE ;
+} 
+
+.login{
+    background-color: #E29578  ;
+    height: 50px;
+    width : 180px
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+ .background{
+    background-color: #EDF6F9  ;
+ } 
+
+
+ .cardback{
+  
+  background-image: linear-gradient(to right, rgba(226, 149, 120, 0.52), rgba(0, 109, 119, 0.73));
+  box-sizing: border-box;
+
+  background-size: cover;
+  color: white;
+  
+}
+
+.textback {
+  position:relative;
+  /*padding: 8px;*/
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 400px;
+  margin-right: 200px;
+  margin-bottom: 0px;
+  margin-left: 200px;
+  border:3px solid #E29578;
+  background :-webkit-linear-gradient(#006D77, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+.position {
+  
+  
+  margin-right: 550px;
+  margin-top: 10px;
+ 
+  margin-left: 550px;
+ 
+  
+}
+.btn1:hover{
+
+  background-color: #83C5BE;
+  border:3px solid #E29578;
+  color: black;
+
+  
+
+}
+
+.animation{
+  overflow: hidden;
+  transition: all 1s ease;
+}
+.animation:hover {
+  transform: scale(1.2);
+}
+
+
+.detailsview{
+  color : black;
+
+}
+
+
+ 
+
+
+
+ 
+
+
+ 
+
